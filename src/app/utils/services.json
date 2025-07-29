@@ -1,0 +1,51 @@
+{
+  "services": [
+    {
+      "no": 1,
+      "name": "Sirkulasi",
+      "description": "Melayani peminjaman dan pengembalian koleksi buku secara terbuka dan sudah terautomasi dengan program libsys (Library System). Sistem ini telah terintegrasi antara perpustakaan pusat dengan perpustakaan fakultas/Jurusan."
+    },
+    {
+      "no": 2,
+      "name": "Referensi dan Koleksi Cadangan",
+      "description": "Layanan koleksi referensi merupakan koleksi acuan untuk mempermudah kegiatan belajar mengajar. Jenis koleksi seperti: handbook, kamus, direktori, hasil laporan penelitian, proceeding, dsb."
+    },
+    {
+      "no": 3,
+      "name": "Koleksi E-Resources (E-Book dan E-Journal)",
+      "description": "Menyediakan koleksi buku elektronik (e-book) dan jurnal-jurnal elektronik (e-journal) yang dapat diakses secara gratis bagi civitas akademik UPNVY melalui aplikasi Digilib dan database seperti Proquest, JSTOR, Ebsco."
+    },
+    {
+      "no": 4,
+      "name": "Layanan Uji Similaritas Tugas Akhir",
+      "description": "Layanan pengecekan kemiripan naskah tugas akhir mahasiswa menggunakan aplikasi Turnitin untuk mencegah tindakan plagiarisme terhadap karya ilmiah maupun tugas akhir."
+    },
+    {
+      "no": 5,
+      "name": "Bebas Pustaka",
+      "description": "Mengeluarkan 2 jenis surat bebas pustaka yang berfungsi untuk pendadaran dan yudisium/wisuda bagi mahasiswa yang telah memenuhi persyaratan administratif perpustakaan."
+    },
+    {
+      "no": 6,
+      "name": "Digital Library (Digilib)",
+      "description": "Menyajikan koleksi Tugas Akhir: Skripsi, Tesis dan Disertasi dalam bentuk softcopy secara fulltext dan dapat diakses menggunakan jaringan intranet di Perpustakaan."
+    },
+    {
+      "no": 7,
+      "name": "Layanan Ruang Baca",
+      "description": "Menyediakan ruang baca yang nyaman dengan fasilitas Ruang Lesehan serta 2 (dua) Ruangan Kedap Suara yang dapat digunakan untuk membaca, belajar maupun berdiskusi."
+    },
+    {
+      "no": 8,
+      "name": "Layanan Terbitan Berkala",
+      "description": "Memuat koleksi-koleksi jurnal dalam bentuk cetak, majalah serta terbitan berkala lainnya yang dapat diakses di Perpustakaan Pusat Lantai 2."
+    }
+  ],
+  "system": "Sistem layanan yang diterapkan di UPT Perpustakaan UPN “Veteran” Yogyakarta adalah system layanan terbuka (Open Acces Service), yaitu pemustaka dapat langsung memilih koleksi yang diperlukan  dengan  mengakses melalui OPAC (Online Public Access Catalogue) dan langsung mencari di rak koleksi menggunakan nomor panggil yang tertera pada buku.",
+  "hours": {
+    "senin_rabu": "07.30 - 20.00 WIB",
+    "kamis_jumat": "08.00 - 16.00 WIB",
+    "istirahat_senin_kamis": "12.00 - 13.00 WIB",
+    "istirahat_jumat": "11.30 - 13.00 WIB"
+  }
+}

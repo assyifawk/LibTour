@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Perpustakaan Yos Sudarso",
+        "description": "UPN 'Veteran' Yogyakarta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [110.41024248506369, -7.7617310901903664],
+            [110.41014445141478, -7.762056493948094],
+            [110.40989516585034, -7.76198364238242],
+            [110.40999179901858, -7.761656157093203],
+            [110.41024248506369, -7.7617310901903664] 
+          ]
+        ]
+      }
+    }
+  ]
+}
