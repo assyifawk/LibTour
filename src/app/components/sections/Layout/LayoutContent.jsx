@@ -5,6 +5,7 @@ import SubTitle from "../../elements/SubTitle";
 import LayoutGrid from "../../fragments/LayoutGrid";
 import PageHeader from "../../fragments/PageHeader";
 import { useSound } from "@/app/context/SoundContext";
+import Image from "next/image";
 
 const LayoutContent = ({ title, images }) => {
   const newTitle = title.replace(" ", "|").split("|");
@@ -14,7 +15,7 @@ const LayoutContent = ({ title, images }) => {
       <PageHeader title="Layout" />
       <div className="flex items-center gap-2 px-[70px] pt-16">
         <Link href="/layout" type="button" onClick={playClickSound}>
-          <img src="/svg/icon-back.svg" alt="" />
+          <Image src="/svg/icon-back.svg" alt="" />
         </Link>
       </div>
       <div className="px-[70px]">

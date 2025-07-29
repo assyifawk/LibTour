@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Profile from "../../fragments/Profile";
+import Image from "next/image";
 
 const LectureProfile = () => {
   const profile = [
@@ -14,7 +15,7 @@ const LectureProfile = () => {
   return (
     <div className="relative px-10 md:px-[70px] py-20 bg-gradient-to-bl from-white via-slate-100 to-slate-200 overflow-hidden">
       <div className="absolute bottom-0 right-4 opacity-40">
-        <img src="/images/lamp-grafity.png" alt="lamp" className="w-[180px]" />
+        <Image src="/images/lamp-grafity.png" alt="lamp" className="w-[180px]" />
       </div>
 
       <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -37,7 +38,7 @@ const LectureProfile = () => {
           <div className="mt-6">
             <p className="font-semibold text-md mb-2">Profil Akademik / Kontak:</p>
             <div className="w-[120px] border-2 border-yellow-400 rounded-lg p-2 bg-white hover:shadow-xl transition">
-              <img
+              <Image
                 src="/images/qr/qr-linkedin-lecture.png"
                 alt="QR Code Akademik"
                 className="w-full"
@@ -49,7 +50,7 @@ const LectureProfile = () => {
         {/* FOTO DOSEN */}
         <div className="p-4 mx-auto order-1 md:order-2">
           <div className="group w-[300px] h-[300px] md:w-[350px] md:h-[350px] rounded-full overflow-hidden border-4 border-yellow-400 shadow-2xl bg-white mx-auto transition-transform duration-700 ease-in-out transform group-hover:scale-105 hover:scale-105">
-            <img
+            <Image
               src="/images/profile-dosen-pembimbing.jpg"
               className="w-full h-full object-cover object-top"
               alt="Foto Dosen Pembimbing - Dwi Wahyuningrum"

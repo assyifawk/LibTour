@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 const VirtualTourViewer = () => {
@@ -48,7 +49,7 @@ const VirtualTourViewer = () => {
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-gray-800">Pratinjau Perpustakaan:</h3>
               <div className="relative">
-                <img
+                <Image
                   src="/images/gedung-perpus.png"
                   alt="Gedung Perpustakaan UPN Veteran Yogyakarta"
                   className="w-full h-64 object-cover rounded-lg shadow-md"

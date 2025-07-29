@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 import React from 'react'
 
 const SubTitle = ({ title }) => {
@@ -15,7 +16,7 @@ const SubTitle = ({ title }) => {
             <span className={`relative ${item.color || ""}`}>
               {item.text}
               {item.underline && (
-                <img 
+                <Image 
                   src="/svg/title-underline.svg" 
                   alt=""
                   className="absolute -bottom-1 left-0 w-full h-1 -mb-1 scale-[3]" 

@@ -1,6 +1,8 @@
 // src/app/components/elements/Background.js
 "use client";
 
+import Image from "next/image";
+
 const Background = ({
   src,
   alt = "",
@@ -11,7 +13,7 @@ const Background = ({
   return (
     <div className={`relative w-full h-full ${className}`}>
       {src && (
-        <img
+        <Image
           src={src}
           alt={alt}
           className="absolute inset-0 w-full h-full object-cover"
