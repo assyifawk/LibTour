@@ -127,9 +127,9 @@ const Navbar = () => {
             </div>
 
             <Link
-              href="/virtual-tour"
+              href="/virtual-tour-v"
               className={`transition ${
-                pathname === "/virtual-tour"
+                pathname === "/virtual-tour-v"
                   ? "text-black-500"
                   : "text-black hover-nav transition-all duration-500 ease-in-out"
               }`}
